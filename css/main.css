@@ -18,7 +18,7 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 0 0 35px;
+    margin: 0 0 10px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
@@ -238,6 +238,9 @@ FRONT PAGE
     -moz-animation-timing-function: linear;
 }
 
+.slideBtn {
+    margin-top: 60vh;
+}
 
 @-webkit-keyframes pulse {    
     0% {
@@ -359,28 +362,98 @@ About page
 .about {
     padding-top: 120px;
     padding-bottom: 120px;
-    text-align: left;
-    background-color: #929596;
+    background-color: #FFFFFF;
     color: black;
     width: 100%;
 }
 
-.contact {
-    padding-top: 120px;
-    padding-bottom: 60px;
-    height: 95vh;
+.redFont {
+    color: #A81C08;
 }
 
-.Footer-img {
-    display: table;
+/*
+Contact Page
+*/
+
+.contact {
     width: 100%;
-    height: 100vh;
+    color: #000000;
+    background-color: #FFFFFF;
+    padding-top: 120px;
+    padding-bottom: 60px;
+}
+
+/*
+Footer
+*/
+.end{
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.end-img {
+    display: table;
+    width: 100vw;
+    min-height: 400px;
     text-align: center;
     color: #fff;
-    background: #000 url(../img/footer_0.jpg) right bottom no-repeat scroll;
+    background: #000 url(../img/footer_0.jpg) top center no-repeat scroll;
 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
+
+.end-img-text {
+    position: relative;
+    background-color: #000000;
+    padding: 5px 10px 5px 10px;
+    margin: 0 0 0 0;
+    max-width: 400px;
+    bottom: -320px;
+    float: right;
+}
+
+.end-questions {
+    color: #000000;
+}
+
+/*
+Product page
+*/
+.product {
+    width: 100%;
+    background-color: #691511;
+}
+
+#product_0-img {
+    background: #000 url(../img/product_0.jpg) left center no-repeat scroll;    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 45vh;
+    min-height: 450px;
+}
+
+#product_1-img {
+    background: #000 url(../img/product_1.jpg) center top no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 45vh;
+    min-height: 450px;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.product-title {
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+
