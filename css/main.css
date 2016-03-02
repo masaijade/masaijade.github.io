@@ -376,6 +376,9 @@ Front Page
     color: white;
 }
 
+.signup-box .email-submit{
+    background-color: red;
+}
 
 input::-webkit-input-placeholder {
 color: white !important;
