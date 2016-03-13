@@ -443,7 +443,7 @@ Contact Page
     width: 100%;
     color: #000000;
     background-color: #FFFFFF;
-    padding-top: 120px;
+    padding-top: 60px;
     padding-bottom: 60px;
 }
 
@@ -644,12 +644,14 @@ Sign up
     font-family: 'Martel Sans', sans-serif;
     font-weight: 300;
     font-size: 20px;
+    margin-bottom: 10px;
 }
 
 .Sign-up, .say-hi {
     font-family: 'Martel Sans', sans-serif;
     font-weight: 300;
     font-size: 24px;
+
 }
 
 .email {
