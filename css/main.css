@@ -421,15 +421,16 @@ About page
     background-color: #FFFFFF;
     color: black;
     width: 100%;
+    font-family: 'Martel Sans', sans-serif;
 }
 
 .redFont {
     color: #A81C08;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .logo-black {
-    width: 20%;
+    width: 205px;
     height: auto;
     margin-bottom: 25px;
 }
@@ -614,7 +615,7 @@ Fonts
 }
 
 .about, .text-impact, .text-handmade {
-    font-family: font-family: 'Martel Sans', sans-serif;
+    font-family: 'Martel Sans', sans-serif;
     font-weight: 300;
     font-size: 14px;
 }
@@ -627,13 +628,13 @@ Fonts
 Sign up
 */
 .follow-we {
-    font-family: font-family: 'Martel Sans', sans-serif;
+    font-family: 'Martel Sans', sans-serif;
     font-weight: 300;
     font-size: 20px;
 }
 
-.Sign-up, say-hi {
-    font-family: font-family: 'Martel Sans', sans-serif;
+.Sign-up, .say-hi {
+    font-family: 'Martel Sans', sans-serif;
     font-weight: 300;
     font-size: 28px;
 }
