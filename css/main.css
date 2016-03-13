@@ -416,8 +416,8 @@ font-family: 'Ubuntu Mono', ;
 About page
 */
 .about {
-    padding-top: 100px;
-    padding-bottom: 120px;
+    padding-top: 80px;
+    padding-bottom: 20px;
     background-color: #FFFFFF;
     color: black;
     width: 100%;
@@ -624,6 +624,20 @@ Fonts
     font-size: 32px;
 }
 
+@media(max-width:767px) {
+    .about-title {
+        font-size: 20px;
+    } 
+    .about {
+        font-size: 10px;
+    }
+    .logo-black {
+        width: 160px;
+    }
+    p {
+        margin: 0 0 20px;
+    }
+}
 /*
 Sign up
 */
