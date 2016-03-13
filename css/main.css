@@ -34,7 +34,7 @@ p {
 @media(min-width:768px) {
     p {
         margin: 0 0 35px;
-        font-size: 16px;
+        font-size: 14px;
         line-height: 1.6;
     }
 }
@@ -552,7 +552,7 @@ Product page
     display: table-cell;
     text-align: left;
     font-weight: 300;
-    font-size: 16px;
+    font-size: 12px;
     margin-left: 15px;
     margin-right: 60px;
     padding: 10px;
@@ -573,6 +573,7 @@ Product page
     border-width: 2px;
     border-color: white;
     width: 463;
+    font-size: 12px;
 }
 
 .product-title {
@@ -616,7 +617,6 @@ Fonts
 .about, .text-impact, .text-handmade {
     font-family: 'Martel Sans', sans-serif;
     font-weight: 300;
-    font-size: 10px;
 }
 
 .about-title {
