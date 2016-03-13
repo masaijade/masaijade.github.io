@@ -55,6 +55,7 @@ a:focus {
 .light {
     font-weight: 400;
     padding-left: 20px;
+    font-family: font-family: 'Libre Baskerville', serif;
 }
 
 .Front-caption {
@@ -384,7 +385,7 @@ Front Page
 }
 
 .signup-box .email-submit{
-    background-color: red;
+    background-color: #A81C08;
     text-transform: lowercase;
     text-transform: capitalize;
 }
@@ -424,6 +425,7 @@ About page
 
 .redFont {
     color: #A81C08;
+    font-weight: bold;
 }
 
 .logo-black {
@@ -570,6 +572,7 @@ Product page
     border: solid;
     border-width: 2px;
     border-color: white;
+    width: 463;
 }
 
 .product-title {
@@ -589,10 +592,12 @@ Product page
 }
 
 .product-title-handmade {
+    padding-top: 90px;
     text-align: left;
 }
 
 .product-title-impact {
+    padding-top: 90px;
     text-align: right;
     background-color: black;
 }
@@ -608,7 +613,7 @@ Fonts
     font-family: 'Libre Baskerville', serif;
 }
 
-.about,  {
+.about, .text-impact, .text-handmade {
     font-family: font-family: 'Martel Sans', sans-serif;
     font-weight: 300;
     font-size: 14px;
@@ -642,6 +647,15 @@ Sign up
     width: 40px;
     height: 40px;
 }
+/*
 
+FOOTER
+
+*/
+
+.say-hi {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
 
 
