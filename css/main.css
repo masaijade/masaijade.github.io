@@ -2,7 +2,6 @@
 body {
     width: 100%;
     height: 100%;
-    font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #fff;
     background-color: #190707;
 }
@@ -20,7 +19,6 @@ h5,
 h6 {
     margin: 0 0 10px;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -288,7 +286,8 @@ FRONT PAGE
 .btn {
     border-radius: 0;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    
+    font-family: 'Share Tech Mono', normal;
     font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
@@ -312,6 +311,7 @@ FRONT PAGE
 
 ul.banner-social-buttons {
     margin-top: 0;
+    font-family: 'Share Tech Mono', normal;
 }
 
 @media(max-width:1199px) {
@@ -392,22 +392,22 @@ Front Page
 
 input::-webkit-input-placeholder {
 color: white !important;
-font-family: 'Ubuntu Mono', ;
+font-family: 'Share Tech Mono', normal;
 }
  
 input:-moz-placeholder { /* Firefox 18- */
 color: white !important;  
-font-family: 'Ubuntu Mono', ;
+font-family: 'Share Tech Mono', normal;
 }
  
 input::-moz-placeholder {  /* Firefox 19+ */
 color: white !important;
-font-family: 'Ubuntu Mono', ;
+font-family: 'Share Tech Mono', normal;
 }
  
 input:-ms-input-placeholder {  
 color: white !important;
-font-family: 'Ubuntu Mono', ;
+font-family: 'Share Tech Mono', normal;
 }
 
 
@@ -469,7 +469,7 @@ Contact Page
     color: #FFFFFF;
     text-transform: lowercase;
     text-transform: capitalize;
-    font-family: 'Ubuntu Mono', ;
+    font-family: 'Share Tech Mono', normal;
 }
 
 
@@ -516,6 +516,7 @@ Footer
 .end-questions-btn {
     color: #FFFFFF;
     background-color: #9C2019;
+    font-family: 'Share Tech Mono', normal;
 }
 
 
@@ -607,7 +608,7 @@ Product page
 Fonts
 */
 .signup-box {
-    font-family: 'Ubuntu Mono', ;
+    font-family: 'Share Tech Mono', normal;
 }
 
 .Nav-logo, .product-title {
@@ -654,8 +655,8 @@ Sign up
 
 }
 
-.email {
-    font-family: 'Ubuntu Mono', ;
+.end-email {
+    font-family: 'Share Tech Mono', normal;
     font-size: 20px;
 }
 
