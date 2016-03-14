@@ -540,7 +540,7 @@ Product page
 }
 
 #product_1-img {
-    background: #000 url(../img/product_1.jpg) center top no-repeat scroll;
+    background: #000 url(../img/product_1.jpg) center bottom no-repeat scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
