@@ -560,8 +560,6 @@ Product page
     border: solid;
     border-width: 2px;
     border-color: white;
-
-
 }
 .text-impact{
     display: table-cell;
@@ -587,6 +585,10 @@ Product page
 
 .product-handmade {
 
+}
+
+.product-bottom {
+    padding-bottom: 50px;
 }
 
 .product-impact {
