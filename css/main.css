@@ -75,7 +75,6 @@ Nav Bar
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: rgba( 66, 66, 66, 0.7);
-
 }
 
 .navbar-custom .navbar-brand {
@@ -152,6 +151,10 @@ Nav Bar
         border-bottom: 1px solid rgba(255,255,255,.3);
         background: rgba( 66, 66, 66, 0.7);
     }
+}
+
+.language-toggle {
+    margin-right: -5px;
 }
 
 /* 
